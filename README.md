@@ -1,0 +1,1 @@
+redux tutorialをts化しつつ実装してみただけ
