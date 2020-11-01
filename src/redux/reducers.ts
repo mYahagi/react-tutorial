@@ -35,7 +35,7 @@ function todos(todos: TODO[] = [], action: IActionType): TODO[] {
       return [
         ...todos,
         {
-          id: todos.length > 0? todos[todos.length - 1].id + 1 : 1,
+          id: todos.length > 0? todos[todos.length - 1].id + 1 : 0,
           text: action.text,
           completed: false
         }
